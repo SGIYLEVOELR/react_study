@@ -1,0 +1,57 @@
+/* header */
+.App-header {
+  background-color: #282c34;
+  min-height: 3vh;
+  font-size: 15px;
+  color: white;
+}
+
+.App-header ul {
+  display: flex;
+  margin: 0 auto;
+}
+
+.App-header ul li {
+  margin: 0 10px 0 10px;
+}
+
+.App-header ul li:first-child {
+  margin-left: auto;
+}
+
+/* Nav */
+.main-nav {
+  display: flex;
+  align-items: center;
+  min-height: 8vh;
+  color: #282c34;
+  font-size: medium;
+}
+
+.main-nav ul {
+  display: flex;
+  margin: 0 auto;
+}
+
+.main-nav ul li {
+  margin: 0 20px 0 20px;
+}
+
+.main-logo {
+  width: 48px;
+  height: 32px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 3vh;
+  color: white;
+}
+
+/* body */
+.body {
+  min-height: calc(100vh - 11vh - 3vh);
+  background-color: aliceblue;
+}
