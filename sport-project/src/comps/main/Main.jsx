@@ -17,7 +17,7 @@ const Main = () => {
           <button>로그인</button>
         </div>
         <div className='main-notice div-margin'>
-          공지사항인데염?
+          공지사항
           <ul>
             <li>1</li>
             <li>1</li>

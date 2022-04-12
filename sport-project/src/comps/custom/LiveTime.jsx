@@ -5,7 +5,7 @@ import 'moment/locale/ko';
 
 const LiveTime = () => {
   const livetime = {
-    // color: 'white',
+    "padding": "0 0 0.5rem 0"
   };
   // 현재 시간 가져오기
   const nowTime = moment().format('YYYY.MM.DD (dd) HH:mm:ss');

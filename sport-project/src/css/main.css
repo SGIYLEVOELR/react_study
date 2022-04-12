@@ -28,9 +28,6 @@
   margin: 0 0 4px 0;
 }
 
-/* .main-total {
-  display: flex;
-} */
 .main-login button {
   width: 175px;
   height: 38px;
@@ -42,5 +39,6 @@
 
 .main-notice {
   width: 40vw;
-  /* border: 1px solid blueviolet; */
+  padding: 3rem;
+  border: 1px solid blueviolet;
 }
