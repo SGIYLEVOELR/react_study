@@ -37,6 +37,9 @@ const MainNav = () => {
           <li>
             <Link to='/map'>지도</Link>
           </li>
+          <li>
+            <Link to='/map'>전체 메뉴</Link>
+          </li>
         </ul>
       </nav>
     </>

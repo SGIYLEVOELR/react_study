@@ -1,0 +1,46 @@
+/* 공통 사용 css */
+.div-margin {
+  margin-left: 16px;
+}
+
+/* css */
+.main-top {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.main-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  border: 1px solid darkcyan;
+}
+.main-login input {
+  width: 100%;
+  height: 38px;
+  padding: 0 13px;
+  border: 1px solid #dcdcdc;
+  font-size: 13px;
+  letter-spacing: -0.1px;
+  margin: 0 0 4px 0;
+}
+
+/* .main-total {
+  display: flex;
+} */
+.main-login button {
+  width: 175px;
+  height: 38px;
+  font-size: 15px;
+  letter-spacing: -0.75px;
+  color: #fff;
+  background: #00335a;
+}
+
+.main-notice {
+  width: 40vw;
+  /* border: 1px solid blueviolet; */
+}

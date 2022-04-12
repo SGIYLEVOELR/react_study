@@ -2,7 +2,7 @@
 .App-header {
   background-color: #282c34;
   min-height: 3vh;
-  font-size: 15px;
+  font-size: 13px;
   color: white;
 }
 
@@ -19,13 +19,24 @@
   margin-left: auto;
 }
 
+.main-nav ul li:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 1px;
+  height: 12px;
+  background: #61656b;
+  transform: translateY(-50%);
+}
+
 /* Nav */
 .main-nav {
   display: flex;
   align-items: center;
   min-height: 8vh;
   color: #282c34;
-  font-size: medium;
+  font-size: 18px;
 }
 
 .main-nav ul {
@@ -53,5 +64,5 @@ footer {
 /* body */
 .body {
   min-height: calc(100vh - 11vh - 3vh);
-  background-color: aliceblue;
+  word-break: keep-all;
 }
