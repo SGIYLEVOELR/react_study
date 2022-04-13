@@ -19,17 +19,6 @@
   margin-left: auto;
 }
 
-.main-nav ul li:not(:last-child)::before {
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 50%;
-  width: 1px;
-  height: 12px;
-  background: #61656b;
-  transform: translateY(-50%);
-}
-
 /* Nav */
 .main-nav {
   display: flex;
@@ -64,5 +53,4 @@ footer {
 /* body */
 .body {
   min-height: calc(100vh - 11vh - 3vh);
-  word-break: keep-all;
 }
