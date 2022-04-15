@@ -11,6 +11,13 @@
   padding: 20px;
 }
 
+.main-bottom {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 5vh;
+}
+
 .main-login {
   display: flex;
   flex-direction: column;
@@ -41,4 +48,12 @@
   width: 45vw;
   padding: 3rem;
   border: 1px solid blueviolet;
+}
+
+.main-div-button {
+  width: 18vw;
+  height: 30vh;
+  border: 1px solid;
+  margin: 0 10px 0 10px;
+  text-align: center;
 }

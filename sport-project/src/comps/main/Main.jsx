@@ -9,7 +9,6 @@ const Main = () => {
     <div className='body'>
       {/* 로그인, 공지사항,퀵메뉴, 지도 */}
       <div className='main-top'>
-        {/* <div className='main-total'> */}
         <div className='main-login'>
           <LiveTime />
           <input type='text' placeholder='아이디 입력' />
@@ -24,6 +23,11 @@ const Main = () => {
             <li>1</li>
           </ul>
         </div>
+      </div>
+      <div className='main-bottom'>
+        <div className='main-div-button'>검색</div>
+        <div className='main-div-button'>지도</div>
+        <div className='main-div-button'>커뮤니티</div>
       </div>
     </div>
   );
