@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  word-break: keep-all;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 8vh;
+  margin-bottom: 3rem;
+}
+
+.App-header button {
+  color: #61dafb;
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: transparent;
+}
+
+.App-header button:hover {
+  cursor: pointer;
+}

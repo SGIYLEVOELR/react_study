@@ -25,8 +25,11 @@ const MainNav = () => {
               <img src={MainLogo} className='main-logo' />
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to='/'>HOME</Link>
+          </li> */}
+          <li>
+            <Link to='/search'>체육관</Link>
           </li>
           <li>
             <Link to='/search'>검색</Link>
@@ -37,9 +40,9 @@ const MainNav = () => {
           <li>
             <Link to='/map'>지도</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to='/map'>전체 메뉴</Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </>
